@@ -1,0 +1,47 @@
+/* Josh Bailey — 09/21/2025 */
+
+nav ul {
+  background-color: lightgray;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: darkblue;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.bordered-image {
+  border: 3px solid black;
+  padding: 4px;
+}
